@@ -1,0 +1,37 @@
+*{
+    /* m0+p0+ff */
+    margin: 0;
+    padding: 0;
+    font-family: 微軟正黑體;
+}
+
+#product{
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: blanchedalmond;
+}
+
+#product div:focus{
+    outline: none;
+}
+#product img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    transform: 0.5s;
+    
+}
+
+#product img:hover{
+    border-radius: 5px;
+}
+
+#product h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
